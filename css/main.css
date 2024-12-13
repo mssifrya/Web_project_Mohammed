@@ -404,12 +404,14 @@ header .container {
 }
 /* start form */
 form {
-    margin: 2rem 0;
+    margin: 4rem 0;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    
 }
 form div {
     display: flex;
@@ -422,23 +424,26 @@ form label {
     font-size: 2.5rem;
     font-weight: 500;
     margin: 1.5rem 0;
+    color: crimson;
 }
 form input {
     width: 100%;
     height: 30px;
+    border-radius: 10px;
 }
 form input#message-text {
     height: 60px;
 }
 .submit {
-    width: 200px;
-    height: 60px;
+    width: 150px;
+    height: 150px;
     color: #485563;
     font-size: 2.5rem;
-    padding: 1rem 6rem;
-    margin-top: 3rem;
+    padding: 1rem;
+    margin-top: 5rem;
     border: 2px solid crimson;
     background-color: #fff;
+    border-radius: 30px;
 }
 .submit:hover {
     background-color: crimson;
